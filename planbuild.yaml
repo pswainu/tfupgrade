@@ -1,0 +1,12 @@
+steps:
+  - name: hashicorp/terraform:0.13.0
+    args:
+      - init
+      - -backend=true
+      - -backend-config=bucket=asset-listt
+  - name: hashicorp/terraform:0.13.0
+    args:
+      - validate
+  - name: hashicorp/terraform:0.13.0
+    args: ["plan"]
+  - name: hashicorp/terraform:0.13.0

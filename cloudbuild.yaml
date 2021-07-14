@@ -3,7 +3,7 @@ steps:
     args:
       - init
       - -backend=true
-      - -backend-config=bucket=asset-listt/terraform/
+      - -backend-config=bucket=asset-listt/terraform
   - name: hashicorp/terraform:0.12.9
     args:
       - validate

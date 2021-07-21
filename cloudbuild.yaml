@@ -10,4 +10,4 @@ steps:
   - name: hashicorp/terraform:0.12.29
     args: ["plan"]
   - name: hashicorp/terraform:0.12.29
-    args: ["destroy", "-auto-approve"]
+    args: ["apply", "-auto-approve"]

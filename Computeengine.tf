@@ -1,5 +1,5 @@
 resource "google_compute_instance" "appserver" {
-  name = "terraform-upgrade-testing-1"
+  name = "terraform-a"
   machine_type = "f1-micro"
   tags        = ["test1"]
   

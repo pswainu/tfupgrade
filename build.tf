@@ -1,7 +1,7 @@
 resource "google_cloudbuild_trigger" "run-upgrade" {
-  name = "gcp-upgrade"
+  name = "tfupgrade"
   github {
-    name = "gcp-upgrade"
+    name = "tfupgrade"
     owner = "pswainu"
     push {
       branch = "dev"

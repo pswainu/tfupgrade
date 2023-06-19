@@ -1,5 +1,5 @@
 provider "google" {
-  project = "its-it-ct-sajjad-np"
+  project = "is-cloud-devops-infra-t"
   region = "us-central1"
   zone = "us-central1-a"
 }
